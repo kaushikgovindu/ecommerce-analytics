@@ -205,3 +205,52 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+ 
+# Environment 
+.env 
+.DS_Store 
+__pycache__/ 
+*.pyc 
+*.egg-info/ 
+ 
+# Logs 
+logs/ 
+ 
+# Airflow 
+.airflow/ 
+airflow/airflow.db 
+airflow/airflow-webserver.pid 
+ 
+# dbt 
+target/ 
+dbt_packages/ 
+ecommerce_dbt/target/ 
+ecommerce_dbt/dbt_packages/ 
+ 
+# Virtual Environment 
+venv/ 
+.venv/ 
+ 
+# Environment 
+.env 
+__pycache__/ 
+*.pyc 
+*.egg-info/ 
+ 
+# Logs 
+logs/ 
+ 
+# Airflow 
+.airflow/ 
+airflow/airflow.db 
+airflow/airflow-webserver.pid 
+ 
+# dbt 
+target/ 
+dbt_packages/ 
+ecommerce_dbt/target/ 
+ecommerce_dbt/dbt_packages/ 
+ 
+# Virtual Environment 
+venv/ 
+.venv/
